@@ -104,6 +104,9 @@ class SecondActivity : AppCompatActivity() {
                         Environment
                             .getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS)
 
+
+                    // some changes
+
 //                    val folder =
 //                        Environment.getExternalStorageDirectory().absolutePath + "/Documents"
 
