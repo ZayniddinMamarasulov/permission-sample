@@ -33,6 +33,7 @@ class SecondActivity : AppCompatActivity() {
     private lateinit var binding: ActivitySecondBinding
 
     private var photoFile: File? = null
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivitySecondBinding.inflate(layoutInflater)
