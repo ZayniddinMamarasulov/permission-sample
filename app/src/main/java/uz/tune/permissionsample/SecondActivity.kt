@@ -101,12 +101,12 @@ class SecondActivity : AppCompatActivity() {
                 result.data?.data?.let {
                     binding.ivPhoto.setImageURI(it)
 
-                    val folder =
-                        Environment
-                            .getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS)
-
 //                    val folder =
-//                        Environment.getExternalStorageDirectory().absolutePath + "/Documents"
+//                        Environment
+//                            .getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS)
+
+                    val folder =
+                        Environment.getExternalStorageDirectory().absolutePath + "/Documents"
 
                     val openInputStream = contentResolver?.openInputStream(it)
                     val file =
